@@ -8,7 +8,18 @@
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100vh;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#nav-bar a {
+  text-decoration: none;
 }
 
 main {
